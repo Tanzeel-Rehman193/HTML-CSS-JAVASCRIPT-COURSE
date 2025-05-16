@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes&Animations</title>
+</head>
+<style>
+    h1{
+        display: block;
+        margin: auto;
+        width: 44%;
+    }
+    .container {
+        background-color: lightseagreen;
+    }
+
+    .box {
+        color: white;
+        background-color: darkred;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: tanzil2;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        /* animation-iteration-count: infinite; */
+        /* animation-fill-mode: forwards; */
+        /* animation-fill-mode: alternate; */
+        /* animation-timing-function: ease-in; */
+        /* animation-timing-function: ease-out; */
+        /* animation-timing-function: ease-in-out; */
+        /* animation-delay: 2s; */
+        /* animation-direction: reverse; */
+    }
+
+    @keyframes tanzil2 {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+        25% {
+            top: 250px;
+            left: 0px;
+        }
+        75% {
+            top: 250px;
+            left: 250px;
+        }
+        100% {
+            top: 0px;
+            left: 250px;
+        }
+    }
+
+    @keyframes tanzil1 {
+        from {
+            width: 200px;
+        }
+
+        To {
+            width: 1400px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Tanzeel</h1>
+        </div>
+    </div>
+</body>
+
+</html>

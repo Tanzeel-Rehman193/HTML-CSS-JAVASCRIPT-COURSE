@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javscript String Function</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <script>
+        var string = "this is a string";
+        console.log(string);
+        //                                                           Position Function
+        //frst occurance of a substring
+        var position = string.indexOf('is');
+        console.log(position);
+        //last occurance of a substring
+        position = string.lastIndexOf('is');
+        console.log(position);
+        //                                                            Slice Function
+        // SLice not take negative values
+        // var substring = string.slice(1,7);
+        //substring method take negative values
+        var substring = string.substring(1, 7);
+        console.log(substring);
+        //                                                         Replacement Function
+        // var replaced = string.replace('string', 'harry');
+        // console.log(string);
+        // console.log(replaced);
+        //                                                         UPPER and lower Case
+        console.log(string.toUpperCase());
+        console.log(string.toLowerCase());
+        //                                                        JOINING OF STRING
+        var newstring = string.concat('New String');
+        console.log(newstring);
+        //                                                        TRIM Function
+        var strspaces = "     this is name    ";
+        console.log(strspaces.trim());
+        //                                                       Charat function
+        // var char2 = string.charCodeAt(2);
+        var char2 = string.charAt(2);
+        console.log(char2);
+
+    </script>
+</body>
+
+</html>

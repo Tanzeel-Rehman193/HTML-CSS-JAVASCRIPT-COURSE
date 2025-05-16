@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name card</title>
+    <style>
+    
+.container{
+    font-family: "Baloo Bhai 2", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 530px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 200px 500px;
+    box-shadow: 20px 20px 7px darkgray;
+}
+.container::before{
+    content: "";
+    height: 41%;
+    width: 35%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.89;
+    background: url(a1.jpg) no-repeat;
+    background-size: cover;
+}
+#name h1{
+    font-size: 41px;
+    color: rgb(179, 11, 45);
+    text-align: center;
+   line-height: 0.1em;
+}
+.job{
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    font-weight: bolder;
+    line-height: 0.5em;
+}
+.job1{
+    text-align: center;
+    font-size: 26px;
+    color:black;
+    font-weight: bolder;
+    line-height: 0.4em;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="name">
+            <h1>Tanzeel Rehman siddiqui</h1>
+            <h2 class="job">Software Engineer</h2>
+            <h2  class="job1">Ph#:0306-4811193</h2>
+        </div>
+    </div>
+</body>
+</html>

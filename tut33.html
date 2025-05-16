@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .box {
+            display: flex;
+            margin: 20px;
+            height: 200px;
+            width: 200px;
+            background-color: rgb(89, 244, 156);
+            justify-content: center;
+            align-items: center;
+            /* transition-property: background-color; */
+            /* transition-duration: 1s; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-delay: 2s; */
+            transition: all 1s ease-in-out;
+        }
+
+        .box:hover {
+            rotate: 360deg;
+            background-color: rgb(248, 107, 232);
+            height: 400px;
+            width: 300px;
+            border-radius: 200px;
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is css transition tutorial</h3>
+    <div class="container">
+        <div class="box">
+            Tanzeel Rehman
+        </div>
+        <div class="box">
+            Waleed Ismaeel
+        </div>
+        <div class="box">
+            Muneeb Rehman
+        </div>
+        <div class="box">
+            Ibrahim Ch
+        </div>
+    </div>
+</body>
+
+</html>

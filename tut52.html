@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>greyscale</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 1500px;
+    }
+    .box{
+        box-shadow: 17px 25px 7px rgb(195, 195, 195);
+        border-radius: 10px;
+        height: 500px;
+        width: 700px;
+        /* border: 2px solid black; */
+        background-image: url(a1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(100%);
+    }
+    .box:hover{
+        filter: grayscale(0%);
+        transition: all  0.9s;
+    }
+</style>
+<body>
+    <div class="container">\
+        <div class="box">
+            
+        </div>
+    </div>
+</body>
+</html>

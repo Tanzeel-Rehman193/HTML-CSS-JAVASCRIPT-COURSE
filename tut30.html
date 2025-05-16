@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadpw and text shadow</title>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    .card {
+        padding: 23px 12px;
+        /* border: 2px solid red; */
+        margin: 23px 12px;
+        background-color: rgb(255, 206, 189);
+        /* box-shadow: 5px 8px rgb(188, 255, 188); */
+        /* box-shadow: -5px -8px rgb(188, 255, 188); */
+        box-shadow: 5px 8px 10px rgba(5, 8, 111, 0.5);
+        /* box-shadow: 5px 8px 10px 20px rgb(153, 255, 153); */
+        /* box-shadow: inset 3px 5px skyblue; */
+        /* box-shadow: 10px 10px blue , 15px 20px black; */
+    }
+    .card h2{
+        /* text-shadow: 2px 2px rgb(247, 255, 27); */
+        text-shadow: 2px 2px 5px rgb(247, 255, 27);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is C++ course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam quas eligendi expedita. Harum
+                quidem, praesentium reiciendis quam quis nesciunt fuga officia. Omnis inventore nulla accusantium ipsa
+                sed ab. Odio, vitae temporibus. Officiis, nesciunt!</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is Html course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veniam maxime facere deleniti incidunt
+                iste excepturi dolore aliquid, sint ducimus. Veniam fuga repellendus at. Cumque obcaecati temporibus
+                aliquam deserunt omnis at laudantium minima facilis!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>This is python course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut deleniti sapiente, iure atque fuga mollitia
+                obcaecati error repellendus, ullam nulla nesciunt. Fugiat nam ad officiis temporibus! Repellendus
+                repellat pariatur laudantium dignissimos minima voluptatibus asperiores?</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors & more designing</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            background-color: rgb(180, 255, 180);
+            padding: 34px;
+            margin: 34px auto;
+            width: 700px;
+            border-radius: 10px;
+        }
+
+        .btn {
+            background-color: darksalmon;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font: bold;
+            font-size: 13px;
+            border-radius: 4px;
+            font-family: cursive;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: white;
+            background-color: rgb(137, 137, 137);
+            border: 2px solid black;
+        }
+
+        a:visited {
+            background-color: rgb(189, 122, 189);
+        }
+
+        a:active {
+            background-color: seagreen;
+        }
+
+        .btn:hover {
+            color: white;
+            background-color: grey;
+            border: 2px solid black;
+        }
+
+        .btn:active {
+            background-color: seagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi asperiores incidunt vero deserunt
+            voluptas? Commodi, similique voluptas excepturi architecto sit eius perferendis? Eveniet illo minus
+            laboriosam cum ipsam error assumenda molestias, eligendi quod asperiores.</p>
+        <a href="https://youtue.com" class="btn">Read more</a>
+        <button class="btn">Contact us </button>
+    </div>
+</body>
+
+</html>
